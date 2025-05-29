@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>Q Tal Tchê Pilchas</title>
   <style>
     body {
@@ -29,43 +29,36 @@
     }
     header {
       padding: 2rem;
-      border-bottom: 5px solid #C0392B; /* Vermelho mais forte */
+      border-bottom: 5px solid #FFC107;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 1rem;
-      flex-wrap: wrap;
     }
     header img {
       max-width: 100px;
       border-radius: 10px;
     }
-    .rs-flag {
-      max-width: 120px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
     h1 {
       font-family: 'Dancing Script', cursive;
       font-size: 3rem;
-      color: #FFC107; /* Amarelo */
-      text-shadow: 2px 2px #2E4F3E; /* Verde */
+      color: #FFC107;
+      text-shadow: 2px 2px #2E4F3E;
       margin: 0;
     }
     main {
       flex: 1;
       padding: 2rem;
-      background: rgba(0,0,0,0.5);
+      background: rgba(0,0,0,0.5); /* Aumentado para melhor contraste */
       margin: 2rem auto;
       border-radius: 15px;
       max-width: 600px;
-      border: 2px solid #C0392B; /* Adiciona borda vermelha ao main */
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
     }
     h2 {
       font-family: 'Dancing Script', cursive;
       font-size: 2rem;
-      color: #FFC107; /* Amarelo */
+      color: #FFC107;
       margin-bottom: 1rem;
     }
     p {
@@ -79,54 +72,25 @@
       text-decoration: none;
       font-weight: bold;
       padding: 0.5rem 1rem;
-      border: 2px solid #C0392B; /* Vermelho mais forte */
+      border: 2px solid #FFC107;
       border-radius: 5px;
       transition: all 0.3s;
     }
     .social-links a:hover, p a:hover {
-      background: #FFC107; /* Amarelo */
-      color: #2E4F3E; /* Verde */
-      box-shadow: 0 0 10px #C0392B;
+      background: #FFC107;
+      color: #2E4F3E;
     }
     footer {
       padding: 1rem;
-      border-top: 5px solid #C0392B; /* Vermelho mais forte */
+      border-top: 5px solid #FFC107;
       background: rgba(0,0,0,0.2);
-      /* Para alinhar os itens no footer */
-      display: flex;
-      flex-direction: column; /* Começa como coluna para garantir que o texto fique separado das imagens */
-      align-items: center; /* Centraliza horizontalmente */
-      justify-content: center;
-    }
-    footer p {
-      font-size: 1.1rem;
-      font-weight: 400;
-      margin-bottom: 10px; /* Espaço entre o texto e as imagens */
-    }
-    .footer-images {
-      display: flex;
-      align-items: center;
-      gap: 15px; /* Espaço entre as duas imagens no footer */
-      flex-wrap: wrap; /* Permite que as imagens quebrem a linha em telas menores */
-      justify-content: center; /* Centraliza as imagens */
-    }
-    .footer-flag {
-      width: 40px; /* Aumentei um pouco para melhor visibilidade */
-      vertical-align: middle;
-    }
-    .footer-logo {
-      width: 50px; /* Tamanho da nova logo no footer */
-      vertical-align: middle;
     }
     @media (max-width: 600px) {
-      header img, .rs-flag {
+      header img {
         max-width: 80px;
       }
       h1 {
         font-size: 2rem;
-      }
-      .footer-flag, .footer-logo {
-        width: 35px; /* Ajusta o tamanho das imagens do footer para telas menores */
       }
     }
   </style>
@@ -138,7 +102,6 @@
       <img src="https://storage.googleapis.com/ecdt-logo-saida/4a95daf02a4157435a48fc8aa7518c225b164cb4025f70ddc2bf3f8e8bfbf487/Q-TAL-TCHE.webp" alt="Logo da Q Tal Tchê Pilchas com cavalo e cuia de chimarrão">
     </picture>
     <h1>Q Tal Tchê Pilchas</h1>
-    <img src="https://luispaulonunes.github.io/imagem_site_qtaltchepilchas/mapa-fundo-verde.png" alt="Bandeira do Rio Grande do Sul em formato de cavalo" class="rs-flag">
   </header>
 
   <main role="main">
@@ -154,16 +117,12 @@
       <a href="https://mtg.org.br" target="_blank" rel="noopener"><i class="fas fa-link"></i> MTG</a>
     </div>
 
-    <p>Contato: <a href="mailto:contato@qtaltchepilchas.com.br" rel="noopener">contato@qtaltchepilchas.com.br</a></p>
+    <p>Contato: <a href="mailto:qtaltchepilchas@gmail.com" rel="noopener">qtaltchepilchas@gmail.com</a></p>
     <p>WhatsApp: <a href="https://wa.me/5551993656637?text=Buenas!%20Quero%20saber%20mais%20sobre%20as%20pilchas!" target="_blank" rel="noopener">(51) 99365-6637</a></p>
   </main>
 
   <footer role="contentinfo">
-    <p>Desde 1993 valorizando a tradição gaúcha!</p>
-    <div class="footer-images">
-      <img src="https://luispaulonunes.github.io/imagem_site_qtaltchepilchas/logo_q_tal_tche_pilchas_transparente.png" alt="Logo Q Tal Tchê Pilchas" class="footer-logo">
-      <img src="https://luispaulonunes.github.io/imagem_site_qtaltchepilchas/mapa-fundo-verde.png" alt="Bandeira do Rio Grande do Sul" class="footer-flag">
-    </div>
+    <p>Desde 1993 valorizando a tradição gaúcha! 🇧🇷</p>
   </footer>
 </body>
 </html>
